@@ -1,3 +1,26 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img {
+    max-width: 10%;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+aside img {
+    max-width: 30%;
+}
+
 /*kod lånat från förra labben*/
 nav {
     /*displayar flex för att kunna arragnera element lättare*/
