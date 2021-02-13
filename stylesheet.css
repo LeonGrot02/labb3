@@ -1,31 +1,41 @@
+
+
 body {
     margin-left: 5%;
     margin-right: 5%;
 }
 
+header {
+    width: 100%;
+    align-items: center;
+}
+
 img {
-    max-width: 10%;
+    width: 100%;
+    height: 25%;
 }
 
 main {
     width: 70%;
-    float: left;
+    float: right;
 }
 
 aside {
     width: 30%;
-    float: right;
+    float: left;
 }
 
 aside img {
     max-width: 30%;
+    display: block;
+    margin-top: 10px;
 }
 
-/*kod lånat från förra labben*/
+/*kod för navigation lånad och redigerad från förra labben*/
 nav {
     /*displayar flex för att kunna arragnera element lättare*/
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
     background-color: white;
 }
@@ -59,5 +69,12 @@ ul li a:hover {
     body {
         margin-left: 0px;
         margin-right: 0px;
+        background-color: red;
     }
 }
+
+@media only screen and (max-width: 400px) {
+   body {
+       background-color: blue;
+   }
+  }
