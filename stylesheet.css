@@ -31,3 +31,10 @@ ul li a:hover {
     background: black;
     color: white;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
